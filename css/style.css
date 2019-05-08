@@ -25,16 +25,19 @@
 .box2{
   left: 57px;
   background-color: #fff01b;
+  animation-delay: 0.5s;
 }
 
 .box3{
   right: 57px;
   background-color: #1bffb4;
+  animation-delay: 1s;
 }
 
 .box4{
   right: 0;
   background:  #922dff;
+  animation-delay: 1.5s;
  }
 
 @keyframes animate {
