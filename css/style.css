@@ -7,14 +7,31 @@
   border: 1px solid black;
 }
 
-.box1 .box2 .box3 .box4{
-  width: 27;
+.box1, .box2, .box3, .box4{
+  width: 27px;
   height: 20px;
   border-radius: 10px;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   animation: animate 4s infinites;
   animation-timing-function:ease-in-out;
 }
 
+.box1{
+  left: 0;
+  background-color: #ff681b;
+}
+.box2{
+  left: 57px;
+  background-color: #fff01b;
+}
+.box3{
+  right: 57px;
+  background-color: #1bffb4;
+}
+.box4{
+  right: 0;
+  background:  #922dff;
+
+}
 
